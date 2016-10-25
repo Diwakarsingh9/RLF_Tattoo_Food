@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DA0030</color>
+    <color name="colorPrimaryDark">#DA0030</color>
+    <color name="colorAccent">#4d4c4c</color>
+    <color name="black">#000000</color>
+    <color name="green">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="statusbarcolor">#4d4c4c</color>
+    <color name="orange">#DA0030</color>
+    <color name="grey">#ffd3d3d3</color>
+    <color name="browndark">#2e2d2d</color>
+    <color name="lightblack">#333333</color>
+    <color name="blue">#ff82e0ff</color>
+    <color name="yellow">#fffffbae</color>
+    <color name="red">#fff10800</color>
+    <color name="list_item_pressed">#1A000000</color>
+    <color name="logored">#DA0030</color>
+</resources>

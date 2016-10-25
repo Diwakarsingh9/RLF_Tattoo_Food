@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RLF Tattoo Food</string>
+    <string name="closeDrawer">Close</string>
+    <string name="openDrawer">Open</string>
+</resources>

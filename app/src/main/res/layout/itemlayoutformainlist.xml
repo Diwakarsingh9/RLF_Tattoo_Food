@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:padding="1dp">
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="2dp"
+        android:elevation="2dp"
+        app:cardCornerRadius="2dp"
+        android:layout_weight="1"
+        android:background="#ffffff">
+        <LinearLayout
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="top|left"
+            android:background="#ffffff"
+            android:padding="1dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/fooditem"
+                android:layout_margin="5dp"
+                android:scaleType="fitCenter"
+                android:layout_weight="1.5" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="top|center">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:layout_weight="1">
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:id="@+id/imageView2"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/cutlery" />
+                    <views.textview.TypefaceTextView
+                        android:id="@+id/itemTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|top"
+                        android:text="Product Name"
+                        android:padding="8dp"
+                        geekui:customTypeface="fonts/Ubuntu-R.ttf"
+                        android:textColor="@android:color/black"
+                        style="@style/Base.TextAppearance.AppCompat.Body2"
+                        android:layout_weight="1"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    views.textview.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="£ 14.90"
+                        geekui:customTypeface="fonts/Ubuntu-R.ttf"
+                        android:id="@+id/price"
+                        android:layout_gravity="right|center_vertical"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:layout_marginRight="10dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|right">
+
+
+                    <views.textview.TypefaceTextView
+                        geekui:customTypeface="fonts/Ubuntu-R.ttf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is a sample text."
+                        android:id="@+id/descp"
+                        android:layout_weight="1"
+                        android:textColor="#7a7979"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="12dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp">
+
+                    <views.textview.TypefaceTextView
+                        geekui:customTypeface="fonts/Tahoma.ttf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Calories - 39 cal"
+                        android:id="@+id/calories"
+                        android:textColor="#000"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center|right">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/minus22"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/minus" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:text="0"
+                        android:id="@+id/result"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textSize="20dp" />
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/plus22"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/add" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

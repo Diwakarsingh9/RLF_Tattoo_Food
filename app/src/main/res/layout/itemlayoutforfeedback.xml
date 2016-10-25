@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="left">
+
+    <views.textview.TypefaceTextView
+        geekui:customTypeface="fonts/Ubuntu-R.ttf"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I see different prices for same item. Why?"
+        android:id="@+id/question"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+
+        android:layout_marginRight="10dp" />
+
+    <views.textview.TypefaceTextView
+        geekui:customTypeface="fonts/Ubuntu-L.ttf"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A product could be listed under different prices. There could be sellers offering you the same product but at a different price. That is the nature of the Suprisem marketplace, where different sellers compete for your order."
+        android:id="@+id/answer"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/browndark"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/black"></LinearLayout>
+</LinearLayout>

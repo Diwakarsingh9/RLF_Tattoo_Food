@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    xmlns:geekui="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+    android:background="#da090909"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center">
+
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:background="@color/colorPrimary">
+
+            <views.textview.TypefaceTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thank You"
+                android:id="@+id/textView38"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                geekui:customTypeface="fonts/Roboto-Regular.ttf"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_gravity="center" />
+
+            ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/cancel"
+                android:src="@drawable/cancel"
+                android:layout_gravity="right|center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="2dp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:id="@+id/success"
+                android:src="@drawable/success"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp" />
+            <views.textview.TypefaceTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thank you for placing the order."
+                android:id="@+id/textView40"
+                android:gravity="center"
+                geekui:customTypeface="fonts/Roboto-Regular.ttf"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000"
+                android:textSize="18dp" />
+            <views.textview.TypefaceTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:id="@+id/ok"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                geekui:customTypeface="fonts/Tahoma.ttf"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:background="@drawable/buttnbg" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

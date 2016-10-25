@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    tools:context="foodorderingapp.apporio.com.suprisem.CategoriesActivity"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top|center"
+        android:background="#ffffff">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+          />
+        <!--<views.textview.TypefaceTextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:text="Total : 00.00 /-   "-->
+            <!--android:id="@+id/totalprice"-->
+            <!--android:textColor="@color/lightblack"-->
+            <!--geekui:customTypeface="fonts/Ubuntu-R.ttf"-->
+            <!--android:gravity="right|center"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textSize="20dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:layout_gravity="bottom|center" />-->
+    </FrameLayout>
+    <views.ProgressWheel
+        android:id="@+id/pb112"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        wheel:matProg_barColor="@color/orange"
+        wheel:matProg_progressIndeterminate="true"
+        android:layout_gravity="center"/>
+</FrameLayout>
